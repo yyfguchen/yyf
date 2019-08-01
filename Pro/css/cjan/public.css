@@ -1,0 +1,441 @@
+body,nav,header,main,section,div,ul,p,h1,h2,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+body,nav,main{
+    overflow: hidden;
+}
+body{
+    background-color: #f2f2f2;
+    color: #666;
+    line-height: 24px;
+    overflow-x: visible;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    position: relative;
+}
+cite{
+    font-style:normal;
+}
+
+nav a{
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+    position: relative;
+}
+
+
+.section{
+    position: relative;
+    height: calc(100% - 35px);
+    transition: all 0.5s;
+    left: 220px;
+    width: calc(100% - 220px);
+    overflow: hidden;
+  
+}
+.section-all{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+}
+.layuiheader{
+    width: 100%;
+    height: 52px;
+    background: white;
+    line-height: 52px;
+    padding: 50px 15px;
+}
+.layuiheader a{
+    color: gray;
+}
+
+
+
+
+
+
+nav,main,header{
+    transition: all 0.5s;
+}
+nav{
+    width: 220px;
+    height: 100%;
+    background-color: #20222A;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+}
+nav .nav-box{
+    height: 100%;
+    width: 237px;
+    overflow-y: scroll;
+}
+nav li>a{
+    display: block;
+    color: #b5b5b8;
+    height: 56px;
+    line-height: 40px;
+    padding: 8px 30px 8px 45px;
+    transition: all 0.2s;
+}
+nav li>a i{
+    position: absolute;
+    left: 20px;
+    top: 8px;
+}
+nav li>a i:before,
+nav li>a span:before{
+    font-size: 16px
+}
+.spanSanjiaoX{
+    border: 6px solid;
+    border-color: transparent;
+    position: absolute;
+}
+
+
+nav li a span.nav-ssp{
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-color: transparent;
+    border-top-color: rgba(255,255,255,.7);
+    transition: all 0.2s;
+}
+
+
+nav a{
+    transition: all 0.2s;
+}
+nav a:hover,
+nav dd dd:hover{
+    color: white;
+    transition: all 0.2s;
+}
+nav ul{
+    margin-top: 1px;
+    width: 220px;
+}
+nav ul>li,
+nav div.Nav-header{
+    display: block;
+    width: 100%;
+}
+nav li dl{
+    display: none;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #16181d;
+}
+nav dd{
+    line-height: 40px;
+    position: relative;
+    font-size: 14px;
+    margin: 0;
+}
+nav dd dd{
+    padding: 0 30px 0 65px;
+    color: #b5b5b8;
+    transition: all 0.5s;
+}
+
+nav dd>a{
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 0 30px 0 45px;
+    position: relative;
+    color: #b5b5b8;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 40px;
+}
+nav li dl>dd>dl>dd>a{
+    padding: 0 
+}
+#nav-ho{
+    display: block;
+    height: 0px;
+    width: 5px;
+    background-color: #009688;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+nav div.Nav-header{
+    height: 49px;
+    padding: 0 15px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 300;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.15);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+nav div.Nav-header img{
+    display: none;
+    position: relative;
+    left: -80px;
+}
+div.Nav-header span{
+    font-size: 16px;
+    color: rgba(255,255,255,.8);
+    line-height: 50px
+}
+
+
+
+
+
+
+header{
+    min-width: 775px;
+    position: relative;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    height: 49px;
+    background-color: white;
+    box-shadow:1px 1px 3px gainsboro;
+    z-index: 10;
+}
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s;
+  
+}
+header .header-left li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    margin: 0 20PX;
+    overflow: hidden;
+}
+header li a{
+    display: block;
+    color: #333333;
+    height: 100%;
+    cursor:pointer;
+}
+header li a[class] i{
+    position: absolute;
+    right: -18px;
+    top:0px;
+    font-size: 13px;
+}
+header .header-left{
+    position: absolute;
+    left: 220px;
+    padding: 0 10px;
+}
+.header-left input{
+    font-size: 14px;
+    display: inline-block;
+    /* vertical-align: middle; */
+    height: 30px;
+    width: 100%;
+    padding-left: 10px;
+    border: none;
+    outline: 0;
+}
+input::-webkit-input-placeholder{
+    color: #d2d2d2;
+}
+
+header .header-right{
+    position: absolute;
+    right: 0;
+}
+header .header-right a{
+    padding: 0 20px
+}
+header .header-right li{
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+}
+.header-right>li>a>span{
+    top: 50%;
+    right: 3px;
+    transition: all 0.2s;
+    border-top-color: rgba(0, 0, 0, 0.7);
+    margin-top: -3px;
+}
+
+#hea-ho2,#hea-ho1{
+    height: 2px;
+    width: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.Head-dl{
+    display: none;
+    position: absolute;
+    left: auto;
+    right: 0;
+    top: 55px;
+    margin: 0;
+    min-width: 100%;
+    line-height: 36px;
+    padding: 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,.12);
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    z-index: 100;
+    border-radius: 2px;
+    white-space: nowrap;
+}
+.Head-dl dd{
+    margin: 0;
+}
+.Head-dl dd a{
+    display: block;
+    padding: 0 20px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    min-width: 775px;
+    position: relative;
+    top: 0;
+    left: 220px;
+    width:calc(100% - 220px);
+    height: calc(100% - 50px);
+}
+/* 滚动条层 */
+main .main-box{
+    height: 100%;
+    overflow-y: auto; 
+}
+/* 主体内容框 */
+section{
+    padding: 7.5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+#harbour{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 0;
+    background-color: rgb(0, 0, 0,0.1);
+    z-index: 1;
+    display: none;
+}
+.artBox{
+    width: 300px;
+    height: calc(100% - 50px);
+    position: absolute;
+    right: -300px;
+    top: 50px;
+    bottom: 0;
+    background-color: white;
+    transition: all 0.5s;
+    z-index: 2;
+}
+.artBox p{
+    margin-bottom: 10px;
+}
+
+.article-card-header {
+    position: relative;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 15px;
+    border-bottom: 1px solid #f6f6f6;
+    color: #333;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+}
+.article-card-body>div{
+    font-size: 0
+}
+blockquote{
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    line-height: 22px;
+    border-radius: 0 2px 2px 0;
+    background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article-card-body {
+    position: relative;
+    padding: 11px 14.5px;
+    line-height: 22px;
+    font-size: 14px;
+    color: #666;
+}
+
+.article-btn {
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 18px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #009688;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none
+}

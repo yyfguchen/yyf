@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/ty.css">
+    <link rel="stylesheet" href="css/cjan/public.css">
+    <link rel="stylesheet" href="ico/font/cjan/iconfont.css">
+    <link rel="stylesheet" href="css/zjdh.css">
+    <link rel="stylesheet" href="ico/font/ico01.css">
+    <link rel="stylesheet" href="ico/font/ico02.css">
+    <link rel="stylesheet" href="css/adjust.css" media="screen and (max-width: 992px)">
+    <script src="https://echarts.baidu.com/dist/echarts.js"></script>
+</head>
+<body>
+    <!-- 侧边栏 -->
+    <div class="layui-pro">
+            <dl class="layui-dl">
+                <dt class="layui-dt">
+                    <p id="pro">layuiAdmin Pro</p>
+                </dt>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zhuye" style="color: rgb(189, 189, 192);"><a>主页</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="index.html">控制台</a></li>
+                        <li class="layui-li"><a href="">主页一</a></li>
+                        <li class="layui-li"><a href="">主页二</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zujian" style="color: rgb(189, 189, 192);"><a>组件</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">栅格</a></li>
+                        <li class="layui-li"><a href="cjan.html">按钮</a></li>
+                        <li class="layui-li"><a href="">表单</a></li>
+                        <li class="layui-li"><a href="">导航</a></li>
+                        <li class="layui-li"><a href="">选项卡</a></li>
+                        <li class="layui-li"><a href="zj-jdt.html">进度条</a></li>
+                        <li class="layui-li"><a href="">面板</a></li>
+                        <li class="layui-li"><a href="">徽章</a></li>
+                        <li class="layui-li"><a href="">时间线</a></li>
+                        <li class="layui-li"><a href="zjdh.html">动画</a></li>
+                        <li class="layui-li"><a href="zjfz.html">辅助</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yemian" style="color: rgb(189, 189, 192);"><a>页面</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">个人主页</a></li>
+                        <li class="layui-li"><a href="ymtxl.html">通讯录</a></li>
+                        <li class="layui-li"><a href="">客户列表</a></li>
+                        <li class="layui-li"><a href="">商品列表</a></li>
+                        <li class="layui-li"><a href="ymlyb.html">留言板</a></li>
+                        <li class="layui-li"><a href="">搜索结果</a></li>
+                        <li class="layui-li"><a href="">注册</a></li>
+                        <li class="layui-li"><a href="">登入</a></li>
+                        <li class="layui-li"><a href="">忘记密码</a></li>
+                        <li class="layui-li"><a href="">404</a></li>
+                        <li class="layui-li"><a href="">错误提示</a></li>
+                        <li class="layui-li"><a href="">内嵌页面</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yingyong" style="color: rgb(189, 189, 192);"><a>应用</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">内容系统</a></li>
+                        <li class="layui-li"><a href="">社区系统</a></li>
+                        <li class="layui-li"><a href="">消息中心</a></li>
+                        <li class="layui-li"><a href="">工单系统</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-gaoji" style="color: rgb(189, 189, 192);"><a>高级</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">通讯系统</a></li>
+                        <li class="layui-li"><a href="">Echarts集成</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yonghu" style="color: rgb(189, 189, 192);"><a>用户</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">网络用户</a></li>
+                        <li class="layui-li"><a href="">后台管理员</a></li>
+                        <li class="layui-li"><a href="">角色管理</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shezhi" style="color: rgb(189, 189, 192);"><a>设置</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">系统设置</a></li>
+                        <li class="layui-li"><a href="">网站设置</a></li>
+                        <li class="layui-li"><a href="">邮件服务</a></li>
+                        <li class="layui-li"><a href="">我的设置</a></li>
+                        <li class="layui-li"><a href="">基本资料</a></li>
+                        <li class="layui-li"><a href="">修改密码</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shouquan" style="color: rgb(189, 189, 192);"><a>授权</a></div>
+                </dt>
+            </dl>
+        </div>
+
+    <!-- 头部 -->
+    <div class="layui-header">
+
+        <div class="layui-header-left">
+            <span class="shangtiao"></span>
+            <div id="tubiao" class="iconfont icon-shensuocaidan"></div>
+            <div id="tubiao" class="iconfont icon-qiu" style="font-size: 14px"></div>
+            <div id="tubiao" class="iconfont icon-shuaxin" style="font-size: 13px; font-weight: bold"></div>
+            <input type="text" placeholder="搜索...">
+        </div>
+
+
+        <div class="layui-header-right">
+            <div class="iconfont icon-lingdang"></div>
+            <div class="iconfont icon-peise" style="font-size: 19px"></div>
+            <div class="iconfont icon-bianqian"></div>
+            <div class="iconfont icon-fangda"></div>
+            <div class="xianxin">
+                <span>贤心</span>
+                <i class="iconfont icon-more" style="font-size: 13px"></i>
+            </div>
+            <div class="iconfont icon-sandian"></div>
+        </div>
+
+    </div>
+    <!-- 内容 -->
+    <div class="section">
+        <div class="section-all">
+            <div class="layuiheader">
+                    <a href="#">主页 /</a> 组件 / 动画
+    
+                </div>
+
+        <div class="layui-fluid">
+            <div class="layui-row layui-col-space15">
+                <div class="layui-col-md12">
+                    <div class="layui-card">
+                        <div class="layui-card-header">点击演示动画</div>
+                        <div class="layui-card-body">
+                            <ul class="site-doc-icon site-doc-anim">
+                               <div>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-up">从最底部往上滑入</div>
+                                    <div class="code">layui-anim-up</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-upbit">微微往上滑入</div>
+                                    <div class="code">layui-anim-upbit</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-scale">平滑放大</div>
+                                    <div class="code">layui-anim-scale</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-scaleSpring">弹簧式放大</div>
+                                    <div class="code">layui-anim-scaleSpring</div>
+                                </li>
+                            </div>
+                            <div class="dier">
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-fadein">渐现</div>
+                                    <div class="code">layui-anim-fadein</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-fadeout">渐隐</div>
+                                    <div class="code">layui-anim-fadeout</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-rotate">360度旋转</div>
+                                    <div class="code">layui-anim-rotate</div>
+                                </li>
+                                <li>
+                                    <div class="layui-anim" data-anim="layui-anim-rotate layui-anim-loop">循环动画</div>
+                                    <div class="code">追加：layui-anim-loop</div>
+                                </li>
+                            </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="scripts/jquery-1.12.4.js"></script>
+    <script src="scripts/zy.js"></script>
+    <script src="scripts/public.js"></script>
+    <script src="layui/layui.all.js"></script>
+</body>
+<script type="text/javascript">
+    layui.use('jquery', function () {
+        var $ = layui.$;
+
+        //演示动画
+        $('.site-doc-icon .layui-anim').on('click', function () {
+            var othis = $(this), anim = othis.data('anim');
+
+            //停止循环
+            if (othis.hasClass('layui-anim-loop')) {
+                return othis.removeClass(anim);
+            }
+
+            othis.removeClass(anim);
+
+            setTimeout(function () {
+                othis.addClass(anim);
+            });
+            //恢复渐隐
+            if (anim === 'layui-anim-fadeout') {
+                setTimeout(function () {
+                    othis.removeClass(anim);
+                }, 1300);
+            }
+        });
+    });
+
+</script>
+</html>

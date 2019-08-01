@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/ty.css">
+    <link rel="stylesheet" href="css/cjan/public.css">
+    <link rel="stylesheet" href="ico/font/cjan/iconfont.css">
+    <link rel="stylesheet" href="css/cjan/botton.css">
+    <link rel="stylesheet" href="ico/font/ico01.css">
+    <link rel="stylesheet" href="ico/font/ico02.css">
+    <link rel="stylesheet" href="css/adjust.css" media="screen and (max-width: 992px)">
+    <script src="https://echarts.baidu.com/dist/echarts.js"></script>
+</head>
+<body>
+    <!-- 侧边栏 -->
+    <div class="layui-pro">
+            <dl class="layui-dl">
+                <dt class="layui-dt">
+                    <p id="pro">layuiAdmin Pro</p>
+                </dt>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zhuye" style="color: rgb(189, 189, 192);"><a>主页</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="index.html">控制台</a></li>
+                        <li class="layui-li"><a href="">主页一</a></li>
+                        <li class="layui-li"><a href="">主页二</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zujian" style="color: rgb(189, 189, 192);"><a>组件</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">栅格</a></li>
+                        <li class="layui-li"><a href="cjan.html">按钮</a></li>
+                        <li class="layui-li"><a href="">表单</a></li>
+                        <li class="layui-li"><a href="">导航</a></li>
+                        <li class="layui-li"><a href="">选项卡</a></li>
+                        <li class="layui-li"><a href="zj-jdt.html">进度条</a></li>
+                        <li class="layui-li"><a href="">面板</a></li>
+                        <li class="layui-li"><a href="">徽章</a></li>
+                        <li class="layui-li"><a href="">时间线</a></li>
+                        <li class="layui-li"><a href="zjdh.html">动画</a></li>
+                        <li class="layui-li"><a href="zjfz.html">辅助</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yemian" style="color: rgb(189, 189, 192);"><a>页面</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">个人主页</a></li>
+                        <li class="layui-li"><a href="ymtxl.html">通讯录</a></li>
+                        <li class="layui-li"><a href="">客户列表</a></li>
+                        <li class="layui-li"><a href="">商品列表</a></li>
+                        <li class="layui-li"><a href="ymlyb.html">留言板</a></li>
+                        <li class="layui-li"><a href="">搜索结果</a></li>
+                        <li class="layui-li"><a href="">注册</a></li>
+                        <li class="layui-li"><a href="">登入</a></li>
+                        <li class="layui-li"><a href="">忘记密码</a></li>
+                        <li class="layui-li"><a href="">404</a></li>
+                        <li class="layui-li"><a href="">错误提示</a></li>
+                        <li class="layui-li"><a href="">内嵌页面</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yingyong" style="color: rgb(189, 189, 192);"><a>应用</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">内容系统</a></li>
+                        <li class="layui-li"><a href="">社区系统</a></li>
+                        <li class="layui-li"><a href="">消息中心</a></li>
+                        <li class="layui-li"><a href="">工单系统</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-gaoji" style="color: rgb(189, 189, 192);"><a>高级</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">通讯系统</a></li>
+                        <li class="layui-li"><a href="">Echarts集成</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yonghu" style="color: rgb(189, 189, 192);"><a>用户</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">网络用户</a></li>
+                        <li class="layui-li"><a href="">后台管理员</a></li>
+                        <li class="layui-li"><a href="">角色管理</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shezhi" style="color: rgb(189, 189, 192);"><a>设置</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">系统设置</a></li>
+                        <li class="layui-li"><a href="">网站设置</a></li>
+                        <li class="layui-li"><a href="">邮件服务</a></li>
+                        <li class="layui-li"><a href="">我的设置</a></li>
+                        <li class="layui-li"><a href="">基本资料</a></li>
+                        <li class="layui-li"><a href="">修改密码</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shouquan" style="color: rgb(189, 189, 192);"><a>授权</a></div>
+                </dt>
+            </dl>
+    </div>
+
+    <!-- 头部 -->
+    <div class="layui-header">
+
+        <div class="layui-header-left">
+            <span class="shangtiao"></span>
+            <div id="tubiao" class="iconfont icon-shensuocaidan"></div>
+            <div id="tubiao" class="iconfont icon-qiu" style="font-size: 14px"></div>
+            <div id="tubiao" class="iconfont icon-shuaxin" style="font-size: 13px; font-weight: bold"></div>
+            <input type="text" placeholder="搜索...">
+        </div>
+
+
+        <div class="layui-header-right">
+            <div class="iconfont icon-lingdang"></div>
+            <div class="iconfont icon-peise" style="font-size: 19px"></div>
+            <div class="iconfont icon-bianqian"></div>
+            <div class="iconfont icon-fangda"></div>
+            <div class="xianxin">
+                <span>贤心</span>
+                <i class="iconfont icon-more" style="font-size: 13px"></i>
+            </div>
+            <div class="iconfont icon-sandian"></div>
+        </div>
+
+    </div>
+    <!-- 内容 -->
+    <div class="section">
+        <div class="section-all">
+            <div class="layuiheader">
+                <a href="#">主页 /</a> 组件 / 按钮
+            </div>
+
+            <div class="layui-fluid">
+                <div class="layui-row layui-col-space15">
+                    <div class="layui-col-md6">
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮主题</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button class="layui-btn layui-btn-primary">原始按钮</button>
+                                    <button class="layui-btn">默认按钮</button>
+                                    <button class="layui-btn layui-btn-normal">百搭按钮</button>
+                                    <button class="layui-btn layui-btn-warm">暖色按钮</button>
+                                    <button class="layui-btn layui-btn-danger">警告按钮</button>
+                                    <button class="layui-btn layui-btn-disabled">禁用按钮</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮尺寸</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button class="layui-btn layui-btn-primary layui-btn-lg">大型按钮</button>
+                                    <button class="layui-btn layui-btn-primary">默认按钮</button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">小型按钮</button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-xs">迷你按钮</button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-lg">大型按钮</button>
+                                    <button class="layui-btn">默认按钮</button>
+                                    <button class="layui-btn layui-btn-sm">小型按钮</button>
+                                    <button class="layui-btn layui-btn-xs">迷你按钮</button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-lg layui-btn-normal">大型按钮</button>
+                                    <button class="layui-btn layui-btn-normal">默认按钮</button>
+                                    <button class="layui-btn layui-btn-sm layui-btn-normal">小型按钮</button>
+                                    <button class="layui-btn layui-btn-xs layui-btn-normal">迷你按钮</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮图标</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-xing"></i>
+                                    </button>
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-xiangzuo"></i>
+                                    </button>
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-xiangyou"></i>
+                                    </button>
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-bi"></i>
+                                    </button>
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-lajitong"></i>
+                                    </button>
+                                    <button class="layui-btn">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                    </button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-xing"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-xiangzuo"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-xiangyou"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-bi"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-lajitong"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-danger">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                    </button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-xing"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-xiangzuo"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-xiangyou"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-bi"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-lajitong"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                    </button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-xing"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-xiangzuo"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-xiangyou"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-bi"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-lajitong"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-sm">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                    </button>
+                                    <br>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-xing"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-xiangzuo"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-xiangyou"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-bi"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-lajitong"></i>
+                                    </button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-sm">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="layui-col-md6">
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮圆角</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button class="layui-btn layui-btn-primary layui-btn-radius">原始按钮</button>
+                                    <button class="layui-btn layui-btn-radius">默认按钮</button>
+                                    <button class="layui-btn layui-btn-normal layui-btn-radius">百搭按钮</button>
+                                    <button class="layui-btn layui-btn-warm layui-btn-radius">暖色按钮</button>
+                                    <button class="layui-btn layui-btn-danger layui-btn-radius">警告按钮</button>
+                                    <button class="layui-btn layui-btn-disabled layui-btn-radius">禁用按钮</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮混搭</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button
+                                        class="layui-btn layui-btn-lg layui-btn-primary layui-btn-radius">大型加圆角</button>
+                                    <a href="http://www.layui.com/doc/element/button.html" class="layui-btn"
+                                        target="_blank">跳转的按钮</a>
+                                    <button class="layui-btn layui-btn-sm layui-btn-normal">
+                                        <i class="iconfont icon-lajitong"></i>
+                                        删除
+                                    </button>
+                                    <button class="layui-btn layui-btn-xs layui-btn-disabled">
+                                        <i class="iconfont icon-fenxiang"></i>
+                                        分享
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card">
+                            <div class="layui-card-header">按钮组合</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <div class="layui-btn-group">
+                                        <button class="layui-btn">增加</button>
+                                        <button class="layui-btn">编辑</button>
+                                        <button class="layui-btn">删除</button>
+                                    </div>
+                                </div>
+                                <div class="layui-btn-container">
+                                    <div class="layui-btn-group">
+                                        <button class="layui-btn layui-btn-sm">
+                                            <i class="iconfont icon-iconjia"></i>
+                                        </button>
+                                        <button class="layui-btn layui-btn-sm">
+                                            <i class="iconfont icon-bi"></i>
+                                        </button>
+                                        <button class="layui-btn layui-btn-sm">
+                                            <i class="iconfont icon-lajitong"></i>
+                                        </button>
+                                        <button class="layui-btn layui-btn-sm">
+                                            <i class="iconfont icon-xiangyou"></i>
+                                        </button>
+
+                                    </div>
+
+                                    <div class="layui-btn-group">
+                                        <button class="layui-btn layui-btn-primary layui-btn-sm">文字</button>
+                                        <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                            <i class="iconfont icon-iconjia"></i>
+                                        </button>
+                                        <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                            <i class="iconfont icon-bi"></i>
+                                        </button>
+                                        <button class="layui-btn layui-btn-primary layui-btn-sm">
+                                            <i class="iconfont icon-lajitong"></i>
+                                        </button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="layui-card" style="margin-bottom: 20px">
+                            <div class="layui-card-header">按钮铺满</div>
+                            <div class="layui-card-body">
+                                <div class="layui-btn-container">
+                                    <button class="layui-btn layui-btn-fluid">好雨知时节</button>
+                                    <button class="layui-btn layui-btn-fluid">当春乃发生</button>
+                                    <button class="layui-btn layui-btn-fluid">随风潜入夜</button>
+                                    <button class="layui-btn layui-btn-fluid">润物细无声</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="scripts/jquery-1.12.4.js"></script>
+    <script src="scripts/zy.js"></script>
+    <script src="scripts/public.js"></script>
+    <script src="layui/layui.all.js"></script>
+</body>
+</html>

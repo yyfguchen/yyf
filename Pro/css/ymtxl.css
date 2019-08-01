@@ -1,0 +1,96 @@
+.section{
+    position: relative;
+    height: calc(100% - 35px);
+    transition: all 0.5s;
+    left: 220px;
+    width: calc(100% - 220px);
+    overflow: hidden;
+  
+}
+.section-all{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+
+}
+.layuiheader{
+    width: 100%;
+    height: 52px;
+    background: white;
+    line-height: 52px;
+    padding: 50px 15px;
+}
+.layuiheader a{
+    color: gray;
+}
+.section-1{
+    width: 100%;
+    padding: 0px 15px;
+    
+    padding:15px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-1-1{
+    width: 32.5%;
+    margin-bottom: 15px;
+    height: 240px;
+    background-color: #fff;
+    border: 1px solid #e7eaec;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.section-1-left{
+    width: 40%;
+    padding: 25px 20px;
+    text-align: center;
+    color: #999999;;
+
+}
+.section-1-left img{
+    max-width: 80%;
+    border-radius: 50%;
+    
+}
+.section-1-left p{
+    margin-top: 5px;
+}
+.section-1-right{
+    width: 60%;
+    padding: 25px 0;
+    color: black;
+    cursor:pointer
+}
+.section-1-right h3{
+    margin-bottom: 10px;
+    color: black; 
+    font-weight: bold;
+}
+.section-1-right span{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.section-1-right p{
+    margin-bottom: 6px;
+}
+.section-1-right p:nth-of-type(1){
+    color: black; 
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.section-1-right h3:hover{
+    color: gray;
+ 
+}
+.section-1-right p:hover{
+    color: gray;
+ 
+}

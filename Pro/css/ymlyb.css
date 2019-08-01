@@ -1,0 +1,96 @@
+
+.layui-fluid{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+
+}
+
+.layui-input-block{
+    margin-left: 0;
+   
+}
+.layadmin-message-fluid .layui-form {
+    padding: 45px 40px 0;
+}
+.layadmin-message-fluid .layui-textarea {
+    min-height: 100px;
+    font-size: 16px;
+}
+.layui-input-right {
+    float: right;
+}
+.layadmin-messag-icon {
+    overflow: hidden;
+    float: left;
+    margin-top: 4px;
+}
+.layadmin-messag-icon .layui-icon {
+    font-size: 24px;
+    line-height: 30px;
+    margin-right: 15px;
+    color: #C4CBCF;
+}
+.layadmin-message-fluid .layui-col-md12 {
+    background: #fff;
+    height: auto;
+    padding-bottom: 50px;
+}
+.message-content {
+    padding: 0 40px;
+}
+.message-content .media-body {
+    margin-bottom: 60px;
+}
+.layadmin-homepage-list-imgtxt .media-body {
+    width: auto;
+    display: block;
+    overflow: hidden;
+}
+.message-content .media-left {
+    float: left;
+    margin-right: 10px;
+}
+.message-content .media-body .pad-btm {
+    padding-bottom: 0;
+}
+.layadmin-homepage-list-imgtxt .media-body .pad-btm {
+    padding-bottom: 15px;
+}
+.layadmin-homepage-list-imgtxt .media-body .pad-btm p:first-child {
+    padding-bottom: 5px;
+}
+.layadmin-homepage-list-imgtxt .media-body .pad-btm .fontColor a {
+    font-weight: 600;
+    color: #337ab7;
+}
+.layadmin-homepage-list-imgtxt .media-body .min-font {
+    margin-bottom: 10px;
+}
+.layadmin-homepage-list-imgtxt .media-body .min-font .layui-breadcrumb a {
+    font-size: 11px;
+}
+.message-text {
+    padding-top: 10px;
+}
+.message-content .media-body {
+    margin-bottom: 60px;
+}
+.layadmin-homepage-list-imgtxt .media-body {
+    width: auto;
+    display: block;
+    overflow: hidden;
+}
+.message-content .media-left {
+    float: left;
+    margin-right: 10px;
+}
+.message-content-btn {
+    text-align: center;
+}
+.message-content .layui-btn {
+    height: auto;
+    line-height: 26px;
+    padding: 5px 30px;
+    font-size: 16px;
+}

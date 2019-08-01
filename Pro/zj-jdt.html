@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/ty.css">
+    <link rel="stylesheet" href="css/zj-jdt.css">
+    <link rel="stylesheet" href="ico/font/ico01.css">
+    <link rel="stylesheet" href="ico/font/ico02.css">
+    <link rel="stylesheet" href="css/adjust.css" media="screen and (max-width: 992px)">
+    <script src="https://echarts.baidu.com/dist/echarts.js"></script>
+</head>
+
+<body>
+
+
+    <!-- 侧边栏 -->
+    <div class="layui-pro">
+            <dl class="layui-dl">
+                <dt class="layui-dt">
+                    <p id="pro">layuiAdmin Pro</p>
+                </dt>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zhuye" style="color: rgb(189, 189, 192);"><a>主页</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="index.html">控制台</a></li>
+                        <li class="layui-li"><a href="">主页一</a></li>
+                        <li class="layui-li"><a href="">主页二</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-zujian" style="color: rgb(189, 189, 192);"><a>组件</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">栅格</a></li>
+                        <li class="layui-li"><a href="cjan.html">按钮</a></li>
+                        <li class="layui-li"><a href="">表单</a></li>
+                        <li class="layui-li"><a href="">导航</a></li>
+                        <li class="layui-li"><a href="">选项卡</a></li>
+                        <li class="layui-li"><a href="zj-jdt.html">进度条</a></li>
+                        <li class="layui-li"><a href="">面板</a></li>
+                        <li class="layui-li"><a href="">徽章</a></li>
+                        <li class="layui-li"><a href="">时间线</a></li>
+                        <li class="layui-li"><a href="zjdh.html">动画</a></li>
+                        <li class="layui-li"><a href="zjfz.html">辅助</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yemian" style="color: rgb(189, 189, 192);"><a>页面</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">个人主页</a></li>
+                        <li class="layui-li"><a href="ymtxl.html">通讯录</a></li>
+                        <li class="layui-li"><a href="">客户列表</a></li>
+                        <li class="layui-li"><a href="">商品列表</a></li>
+                        <li class="layui-li"><a href="ymlyb.html">留言板</a></li>
+                        <li class="layui-li"><a href="">搜索结果</a></li>
+                        <li class="layui-li"><a href="">注册</a></li>
+                        <li class="layui-li"><a href="">登入</a></li>
+                        <li class="layui-li"><a href="">忘记密码</a></li>
+                        <li class="layui-li"><a href="">404</a></li>
+                        <li class="layui-li"><a href="">错误提示</a></li>
+                        <li class="layui-li"><a href="">内嵌页面</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yingyong" style="color: rgb(189, 189, 192);"><a>应用</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">内容系统</a></li>
+                        <li class="layui-li"><a href="">社区系统</a></li>
+                        <li class="layui-li"><a href="">消息中心</a></li>
+                        <li class="layui-li"><a href="">工单系统</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-gaoji" style="color: rgb(189, 189, 192);"><a>高级</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">通讯系统</a></li>
+                        <li class="layui-li"><a href="">Echarts集成</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-yonghu" style="color: rgb(189, 189, 192);"><a>用户</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">网络用户</a></li>
+                        <li class="layui-li"><a href="">后台管理员</a></li>
+                        <li class="layui-li"><a href="">角色管理</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shezhi" style="color: rgb(189, 189, 192);"><a>设置</a></div>
+                    <div class="sanjiao"><i class="iconfont icon-more" style="font-size: 13px"></i></div>
+                </dt>
+                <dd class="layui-dd">
+                    <ul>
+                        <li class="layui-li"><a href="">系统设置</a></li>
+                        <li class="layui-li"><a href="">网站设置</a></li>
+                        <li class="layui-li"><a href="">邮件服务</a></li>
+                        <li class="layui-li"><a href="">我的设置</a></li>
+                        <li class="layui-li"><a href="">基本资料</a></li>
+                        <li class="layui-li"><a href="">修改密码</a></li>
+                    </ul>
+                </dd>
+                <dt class="layui-dt">
+                    <span class="layui-dtt"></span>
+                    <div class="iconfont icon-shouquan" style="color: rgb(189, 189, 192);"><a>授权</a></div>
+                </dt>
+            </dl>
+        </div>
+
+
+    <!-- 头部 -->
+    <div class="layui-header">
+
+        <div class="layui-header-left">
+            <span class="shangtiao"></span>
+            <div id="tubiao" class="iconfont icon-shensuocaidan"></div>
+            <div id="tubiao" class="iconfont icon-qiu" style="font-size: 14px"></div>
+            <div id="tubiao" class="iconfont icon-shuaxin" style="font-size: 13px; font-weight: bold"></div>
+            <input type="text" placeholder="搜索...">
+        </div>
+
+
+        <div class="layui-header-right">
+            <div class="iconfont icon-lingdang"></div>
+            <div class="iconfont icon-peise" style="font-size: 19px"></div>
+            <div class="iconfont icon-bianqian"></div>
+            <div class="iconfont icon-fangda"></div>
+            <div class="xianxin">
+                <span>贤心</span>
+                <i class="iconfont icon-more" style="font-size: 13px"></i>
+            </div>
+            <div class="iconfont icon-sandian"></div>
+        </div>
+
+    </div>
+
+    <!-- 内容 -->
+    <div class="section">
+        <div class="nav">
+            <a href="">主页</a>
+            <small>/</small>
+            <p>组件</p>
+            <small>/</small>
+            <p>进度条</p>
+        </div>
+
+        <div class="section-all">
+            <!-- 默认进度条 -->
+            <div class="section-all-one">
+
+                <div class="section-all-one-top">
+                    <p>默认进度条</p>
+                </div>
+                <div class="section-all-one-body">
+                    <div class="section-all-one-body-1">
+                        <div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-all-one-body-2">
+                        <div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 更多颜色进度条 -->
+            <div class="section-all-two">
+                <div class="section-all-two-top">
+                    <p>更多颜色进度条</p>
+                </div>
+                <div class="section-all-two-body">
+                    <div class="section-all-two-body-cen">
+                        <div class="body-cen-gd1">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="body-cen-gd1">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="body-cen-gd1">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="body-cen-gd1">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="body-cen-gd1">
+                            <div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="body-cen-gd2">
+                            <div></div>
+                        </div>
+                        <div class="body-cen-gd2">
+                            <div></div>
+                        </div>
+                        <div class="body-cen-gd2">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 动态改变进度 -->
+            <div class="section-all-three">
+                <div class="section-all-three-top">
+                    <p>动态改变进度</p>
+                </div>
+                <div class="section-all-three-body">
+                    <div class="section-all-three-body-1">
+                        <p>0%</p>
+                    </div>
+                    <div class="section-all-three-body-2">
+                        <div id="sz">
+                            <a href="">设置50%</a>
+                        </div>
+                        <div id="mn">
+                            <a href="">模拟oading</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 显示进度比文本 -->
+            <div class="section-all-four">
+                <div class="section-all-four-top">
+                    <p>显示进度比文本</p>
+                </div>
+                <div class="section-all-four-body">
+                    <div class="section-all-four-body-1">
+                        <p>20%</p>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="section-all-four-body-2">
+                        <p>5 / 10</p>
+                        <div>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="section-all-four-body-3">
+                        <div>
+                            <p>70%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="scripts/jquery-1.12.4.js"></script>
+    <script src="scripts/zy.js"></script>
+    <script src="layui/layui.all.js"></script>
+
+</body>
+
+</html>
