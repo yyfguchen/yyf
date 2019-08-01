@@ -1,0 +1,44 @@
+.body {
+    padding: 0;
+    margin: 0;
+}
+
+.error,
+.correct {
+    width: 75%;
+    height: 3rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 4px 1px rgba(161, 124, 124);
+    text-align: center;
+    line-height: 3rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 1.3rem;
+    position: fixed;
+    top: -4rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 555555;
+}
+
+.error {
+    background-color: black;
+}
+
+.correct {
+    background-color: rgba(0, 143, 55, 0.7);
+}
+
+div.again {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 3rem;
+    background-color: rgba(56, 223, 167, 0.822);
+    text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 44444;
+}

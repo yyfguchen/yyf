@@ -1,0 +1,119 @@
+body {
+    height: 100%;
+}
+
+body>div.box {
+    height: calc(100% - 3rem);
+    position: relative;
+    top: 3rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+body>div.box section {
+    height: 100%;
+    /* background-color: rgba(255, 255, 255, 0.35); */
+    overflow: hidden;
+}
+
+.section-box {
+    width: calc(100% + 0.3rem);
+    height: 100%;
+    overflow-y: auto;
+}
+
+.section-box>* {
+    width: calc(100% - 0.3rem);
+    text-align: center;
+    font-size: 13rem;
+}
+
+ul,
+li,
+p {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-size: 0.5em;
+}
+
+ul {
+    display: block;
+}
+
+li {
+    font-size: 1.5rem;
+    /* border-radius: 1rem; */
+    border: 1px solid black
+}
+
+.section-box ul li {
+    list-style: none;
+    /* background-color: white; */
+    width: 70%;
+    height: 20%;
+    /* margin: 0.5rem auto; */
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+
+p.day::before {
+    content: "第"
+}
+
+p.day::after {
+    content: "天"
+}
+
+.section-box ul ul {
+    width: 80%;
+}
+
+.section-box span {
+    position: absolute;
+    top: 50%;
+    left: 0.2rem;
+    border: 0.5rem solid;
+    border-color: transparent;
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    /* margin-top: -0.5rem */
+}
+
+.section-box span.two {
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0);
+    margin-top: -0.5rem;
+}
+
+li.past {
+    background-color: skyblue!important;
+}
+
+button[name] {
+    position: fixed;
+    bottom: 1rem;
+    width: 20%;
+    height: 5%;
+    font-size: 0.1rem;
+}
+
+button[name="referee"] {
+    right: 1rem;
+    /* transform: translate(-50%, -50%); */
+}
+
+button[name="history"] {
+    left: 1rem;
+    /* transform: translate(-50%, -50%); */
+    z-index: 555555555;
+}
+
+.historyy {
+    width: 20%;
+    color: red;
+    position: absolute;
+    left: 0.5rem;
+    bottom: 0.5rem;
+    font-size: 1.5rem
+}

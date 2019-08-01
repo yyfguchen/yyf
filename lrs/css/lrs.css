@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.fm{
+    width: 100%;
+    height: 100%;
+}
+.fm img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.fm div{
+    /* background: lime; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+.fm div button{
+    background: lime;
+    width: 40%;
+    height: 2.1rem;
+    color: black;
+    /* margin-top: 2rem; */
+    border-radius: 1rem;
+    outline: none;
+}
+/* .fm div button{
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    height: 2.1rem;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

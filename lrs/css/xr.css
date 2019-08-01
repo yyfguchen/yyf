@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+.nav input {
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    padding: 3.5rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+    overflow-y: auto
+}
+
+.box section {
+    display: block;
+    width: 100%;
+    position: relative;
+    /* padding: 0.5rem; */
+    /* background-color: rgba(240, 240, 240, 0.651); */
+    box-sizing: border-box;
+}
+
+.box section>div {
+    width: 75%;
+    height: auto;
+    background: gray;
+    opacity: 0.9;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+label {
+    width: 40%;
+    margin: 2rem 5%;
+    padding: 0.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 0.5rem;
+    border: 1px gray solid;
+}
+
+label.Number {
+    background-color: rgba(5, 109, 109, 0.295);
+    border-color: rgb(220, 20, 60);
+}
+
+.people p {
+    width: 50%;
+    margin: 1rem auto;
+    position: relative;
+    font-size: 1rem;
+}
+
+.people p span {
+    position: absolute;
+    right: 0;
+}
+
+.people p span::after {
+    content: "人"
+}
+
+button {
+    width: 8rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+/* .box section>*{
+    padding:0.5rem;
+    box-sizing: border-box;
+}
+section>div{
+    width: calc(100% / 3);
+    float: left;
+}
+section>div>img{
+    width: 100%;
+} */

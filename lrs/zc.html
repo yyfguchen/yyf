@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>注册</title>
+    <link rel="stylesheet" href="css/zc.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <link rel="stylesheet" href="css/currency.css">
+    <link rel="stylesheet" href="css/registerANDlogin.css">
+
+
+    <script type="text/javascript">
+        document.addEventListener('plusready', function() {
+            //console.log("所有plus api都应该在此事件发生后调用，否则会出现plus is undefined。"
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <div class="dl">
+        <img src="img/denglu/1.png" alt="">
+        <img src="img/denglu/biankuang.png" alt="">
+        <div class="jiemian">
+
+            <label for="main">
+                <span>账号</span>
+                <input type="username" placeholder="请输入您的账号" id="username">
+                <p></p>
+            </label>
+
+            <label for="main">
+                <span>密码</span>
+                <input type="password" placeholder="请输入您的密码" id="password">
+                <p></p>
+            </label>
+
+            <label for="main">
+                <span>确认密码</span>
+                <input type="password" placeholder="请输入您的密码" id="repass">
+                <p></p>
+            </label>
+
+            <label for="main">
+                <span>邮箱</span>
+                <input type="text" placeholder="请输入您的邮箱" id="email">
+                <p></p>
+            </label>
+
+            <label for="main">
+                <span>手机</span>
+                <input type="text" placeholder="请输入您的手机" id="phone">
+                <p></p>
+            </label>
+
+            <label for="v">
+                <span>验证</span>
+                <input type="text" name="Verification" id="Verification">
+                <p></p>
+            </label>
+
+            <input type="button" id="code" style="width: 20%">
+            <!-- <a href="javascrpt:;" class="recode">看不清，下一个</a> -->
+            <a href="javascrpt:;" id="check">验证</a>
+
+
+            <label for="">
+                <button type="submit" onclick="location.href='dl.html'">登陆</button>
+                <button type="submit" style="background: lime;" id="zc">注册</button>
+            </label>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="js/rem.js"></script>
+    <script src="js/zc.js"></script>
+    <script src="js/xr1.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+span.people {
+    width: 1.8rem;
+    height: 1.8rem;
+    text-align: center;
+    line-height: 1.8rem;
+    position: absolute;
+    display: block;
+    padding: 0.5rem;
+    background-color: rgb(11, 190, 235);
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 6666666;
+    box-shadow: 1px 1px 1rem 0 inset gray;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    padding: 3.5rem 0.5rem 0.5rem;
+    box-sizing: border-box;
+    overflow-y: auto
+}
+
+.box section {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 0.5rem;
+    /* background-color: rgba(240, 240, 240, 0.651); */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+div.ig {
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+div.ig img {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding-top: 0.5rem;
+    position: absolute;
+}
+
+div.bt {
+    /* background: red; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.bt button {
+    width: 30%;
+    height: 45%;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    margin-top: 0.3rem;
+}
+
+div.bt button:active {
+    background-color: rgba(16, 139, 36, 0.301);
+    border: 1px solid black;
+}
+
+button.st {
+    display: none;
+}
